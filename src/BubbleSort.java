@@ -11,11 +11,11 @@ public class BubbleSort {
         }
 
         System.out.println("Before sorting: ");
-
         for(int value: arr){
             System.out.println(value);
         }
         System.out.println();
+
 
         // Sorting process
         for(int i=0; i<n; i++){
