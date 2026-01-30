@@ -17,5 +17,20 @@ public class PlusOne {
             System.out.print(value + " ");
         }
 
+        System.out.println();
+
+        // Process of Plus one
+        for(int i = length -1; i >= 0; i-- ){
+            if(arr[i] < 9) {
+                arr[i] = arr[i] + 1;
+                break;
+            }
+
+        }
+        System.out.print("Elements of the array after plus one: ");
+        for(int value: arr){
+            System.out.print(value + " ");
+        }
+
     }
 }
