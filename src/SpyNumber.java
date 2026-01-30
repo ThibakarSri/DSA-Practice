@@ -15,7 +15,6 @@ public class SpyNumber {
                 product = product * rem;
                 num = num / 10;
             }
-
             if(sum == product){
                 System.out.println(temp + " is a Spy Number.");
             } else {
