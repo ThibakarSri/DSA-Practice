@@ -24,6 +24,11 @@ public class PlusOne {
             if(arr[i] < 9) {
                 arr[i] = arr[i] + 1;
                 break;
+            } else
+            {
+                arr[i] = 0;
+                arr[i-1] = arr[i-1] + 1;
+                break;
             }
 
         }
