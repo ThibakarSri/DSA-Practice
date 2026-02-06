@@ -50,8 +50,36 @@ public class Pattern {
         System.out.println();
         for(int i=1; i<=lines; i++){
             for(int j=1; j<=i; j++){
-                System.out.print(i++ + " ");
+                System.out.print(i + " ");
             }
+            System.out.println();
+        }
+
+
+        // Alphabet Triangle
+        System.out.println();
+        char chr = 'A';
+        for(int i=1; i<=lines; i++){
+            for(int j=1; j<=lines-i; j++){
+                System.out.print(" ");
+            }
+            for(int j=1; j<=i; j++){
+                System.out.print(chr++ + " ");
+            }
+            System.out.println();
+        }
+
+
+        System.out.println();
+        for(int i=1; i<=lines; i++){
+            char charr = 'A';
+            for(int j=1; j<=lines-i; j++){
+                System.out.print(" ");
+            }
+            for(int j=1; j<=i; j++){
+                System.out.print(charr++ + " ");
+            }
+            System.out.println();
         }
     }
 
